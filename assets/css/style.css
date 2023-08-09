@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    background-image: url("../images/background.gif");
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.temp-main .temp-data {
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+}
+.temp-data h3 {
+    color: white;
+    font-size: 35px; 
+    padding-top: 40px;  
+}
+.temp-data .form {
+    border: 1px solid coral;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+}
+.temp-data .form h2{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+}   
+.temp-data .form input{
+    padding: 8px 5px 8px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: none;
+}
+.temp-data .form #degree {
+    padding: 8px 5px 8px 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40px;
+    background-color: none;
+}
+.temp-data .form h3{   
+    color: white;
+    font-size: 25px;
+    padding: 30px 0px 10px 0px;
+}
+.temp-data .form .button input{
+    background-color:cornflowerblue;
+    padding: 10px 100px 10px 100px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.temp-data .form .button input:hover{
+    cursor: pointer;
+}
